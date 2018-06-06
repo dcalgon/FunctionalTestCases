@@ -1,0 +1,7 @@
+com/sqa/testCase/AbstractTestCase.class
+com/sqa/testCase/TestCase1.class
+com/sqa/processes/LoginProcess.class
+com/sqa/processes/Process.class
+com/sqa/pages/Page.class
+com/sqa/pages/LandingPage.class
+TestRunner.class
