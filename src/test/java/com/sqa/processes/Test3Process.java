@@ -1,24 +1,19 @@
 package com.sqa.processes;
 
-
 import static org.junit.Assert.*;
 
 import org.openqa.selenium.WebDriver;
 
 import com.sqa.pages.LandingPage;
 
+public class Test3Process extends Process{
 
-
-public class LoginProcess extends Process{
-	
-	private String username = null;
-	private String password = null;
 	private String website = null;
 	String loginAssert = null;
-	String titleAssert = "My awesome dogs page!";
+	String titleAssert = "Test 1";
 	
 	/*Constructor*/
-	public LoginProcess(WebDriver driver) {
+	public Test3Process(WebDriver driver) {
 		super(driver);
 		
 	}
@@ -34,13 +29,9 @@ public class LoginProcess extends Process{
 	@Override
 	public void Run() throws Exception{
 		LandingPage landing = new LandingPage(driver);
-		loginAssert = landing.login(website);
-		
-		
-	
+		loginAssert = landing.Test3(website);
 		assertEquals(loginAssert,titleAssert);
 		
-	//	driver.close();
 		
 
 
