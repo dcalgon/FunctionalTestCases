@@ -10,7 +10,7 @@ public class Test4Process extends Process{
 
 	private String website = null;
 	String loginAssert = null;
-	String titleAssert = "Test 155";
+	String titleAssert = "Test 1";
 	
 	/*Constructor*/
 	public Test4Process(WebDriver driver) {
